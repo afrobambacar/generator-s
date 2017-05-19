@@ -23,20 +23,20 @@ Before you start, take a moment to see how the project structure looks like:
 ```
 .
 ├── /app/
-│		├── /client/
-│		│		├── /Components/
-│		│		├── /core/
-│		│		├── /fonts/
-│		│		├── /images/
-│		│		├── /libs/
-│		│		└── /models/
+│   ├── /client/
+│   │   ├── /Components/
+│   │   ├── /core/
+│   │   ├── /fonts/
+│   │   ├── /images/
+│   │   ├── /libs/
+│   │   └── /models/
 │		└── /server/
-│				├── /auth/
-│				├── /config/
-│				├── /controllers/
-│				├── /views/
-│				├── /app.js
-│				└── /routers.js
+│       ├── /auth/
+│       ├── /config/
+│       ├── /controllers/
+│       ├── /views/
+│       ├── /app.js
+│       └── /routers.js
 ├── /gulp/
 ├── /node_modules/
 ├── /circle.yml
