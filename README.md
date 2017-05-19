@@ -30,7 +30,7 @@ Before you start, take a moment to see how the project structure looks like:
 │   │   ├── /images/
 │   │   ├── /libs/
 │   │   └── /models/
-│		└── /server/
+│   └── /server/
 │       ├── /auth/
 │       ├── /config/
 │       ├── /controllers/
