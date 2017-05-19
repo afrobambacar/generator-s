@@ -2,7 +2,11 @@
   "name": "generator-s",
   "version": "1.0.0",
   "description": "Scaffold out a Backbone.js, Express project",
-  "author": "xswd",
+  "author": "Jaecheol Lee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afrobambacar/generator-s.git"
+  },
   "files": [
     "generators"
   ],
@@ -15,7 +19,6 @@
     "component",
     "front-end"
   ],
-  "repository": "",
   "scripts": {},
   "engines": {
     "node": ">=4.0.0"
