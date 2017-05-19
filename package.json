@@ -1,6 +1,6 @@
 {
-  "name": "generator-s",
-  "version": "1.0.0",
+  "name": "generator-s-webapp",
+  "version": "0.1.0",
   "description": "Scaffold out a Backbone.js, Express project",
   "author": "Jaecheol Lee",
   "repository": {
