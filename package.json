@@ -1,6 +1,6 @@
 {
   "name": "generator-s-webapp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scaffold out a Backbone.js, Express project",
   "author": "Jaecheol Lee",
   "repository": {
@@ -31,5 +31,5 @@
     "mkdirp": "^0.5.1",
     "yeoman-generator": "^1.1.1"
   },
-  "license": "MIT"
+  "license": "BSD-2-Clause"
 }
