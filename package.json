@@ -1,0 +1,32 @@
+{
+  "name": "generator-s",
+  "version": "1.0.0",
+  "description": "Scaffold out a Backbone.js, Express project",
+  "author": "xswd",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "yeoman",
+    "boilerplate",
+    "scaffold",
+    "framework",
+    "component",
+    "front-end"
+  ],
+  "repository": "",
+  "scripts": {},
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "deep-extend": "^0.5.0",
+    "generator-node": "^2.1.0",
+    "inquirer-npm-name": "^2.0.0",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^1.1.1"
+  },
+  "license": "MIT"
+}
