@@ -46,6 +46,7 @@ function proxy (req, res, next) {
 		_.each(req.body, function (value, key) {
 			if (match[1] === ':' + key) {
 				apiUrl = apiUrl.replace(':' + key, value);
+				delete req.body[key];
 				return false;
 			}
 		});
@@ -81,10 +82,11 @@ function proxy (req, res, next) {
 		if (!body) return res.status(500);
 
 		if (config.env !== 'production') {
-			console.log('>>> [api proxy started]: %j', options);
-			console.log('>>> [api proxy] error: %j', error);
-			console.log('>>> [api proxy response.statusCode]: %j', response.statusCode);
-			console.log('>>> [api proxy body]: %j', body);
+			console.log('.......... api proxy start .............')
+			console.log('[start] %j', options);
+			console.log('[error] %j', error);
+			console.log('[status_code] %j', response.statusCode);
+			console.log('[body] %j', body);
 		}
 		if ((body.status && body.data) && body.status === 'error' && body.data.code === 'invalid_token') {
 			req.originalRequest = options;
