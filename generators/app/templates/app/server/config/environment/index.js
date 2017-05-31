@@ -14,15 +14,15 @@ var all = {
   ip: process.env.IP || '0.0.0.0',
   // facebook
   facebook: {
-  	client_id: '227171867753653',
-  	client_secret: '7f78a85163cc53b66a792da233ac1cdd',
-  	client_url: '/auth/facebook/callback'
+  	client_id: '',
+  	client_secret: '',
+  	client_url: ''
   },
   google: {
-    tracking_id: 'UA-68405896-1'
+    tracking_id: ''
   },
   twitter: {
-    name: '@wouzoo'
+    name: ''
   }
 };
 

@@ -1,8 +1,8 @@
 {
   "name": "generator-s-webapp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Scaffold out a Backbone.js, Express project",
-  "author": "Jaecheol Lee",
+  "author": "Jaecheol Lee <jclee.dev@gmail.com> (https://afrobambacar.github.io)",
   "repository": {
     "type": "git",
     "url": "https://github.com/afrobambacar/generator-s-webapp.git"
